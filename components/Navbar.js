@@ -1,11 +1,10 @@
 import { JetBrains_Mono, Inter } from 'next/font/google'
 const space = JetBrains_Mono({ subsets: ['latin'] })
-const inter = Inter({ subsets: ['latin'] })
 
 const Navbar = () => {
     return (
         <div className="w-full px-16 py-6 justify-between items-center inline-flex">
-            <p className={`text-white text-[3rem] font-extrabold uppercase  -tracking-wider ${inter.className}`}>
+            <p className={`text-white text-[3rem] font-extrabold uppercase  -tracking-wider`}>
                 <span>WEB</span>
                 <span className="text-indigo-950">3</span>
                 <span>HELP</span>
